@@ -24,7 +24,7 @@
 │   ├── summarize.py            # Gemini 요약
 │   └── notify.py               # Slack 전송
 ├── seen.json                   # 이미 보낸 글 ID (자동 갱신)
-├── .github/workflows/daily.yml # 매일 9시 cron
+├── .github/workflows/daily.yml # 매일 8시 cron
 ├── requirements.txt
 └── .env.example
 ```
