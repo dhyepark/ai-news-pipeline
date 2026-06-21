@@ -11,7 +11,7 @@
   → 전송한 글 기록 (seen.json, 중복 방지)
 ```
 
-매일 **오전 9시(KST)** GitHub Actions가 자동 실행한다.
+매일 **오전 8시(KST)** GitHub Actions가 자동 실행한다.
 
 ## 폴더 구조
 
@@ -46,7 +46,7 @@ python main.py
    - `GEMINI_API_KEY`
    - `SLACK_WEBHOOK_URL`
 3. **Actions** 탭에서 `Daily AI News` → `Run workflow`로 수동 테스트
-4. 이후 매일 09:00 KST 자동 실행
+4. 이후 매일 08:00 KST 자동 실행
 
 ## 커스터마이징
 

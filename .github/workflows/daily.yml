@@ -2,9 +2,9 @@ name: Daily AI News
 
 on:
   schedule:
-    # 매일 오전 9시 KST = 00:00 UTC
+    # 매일 오전 8시 KST = 23:00 UTC (전날)
     # (GitHub Actions cron은 부하 시 수 분~수십 분 지연될 수 있음)
-    - cron: "0 0 * * *"
+    - cron: "0 23 * * *"
   workflow_dispatch:  # 수동 실행 버튼
 
 # seen.json을 레포에 다시 커밋하려면 쓰기 권한 필요
